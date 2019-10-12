@@ -1,0 +1,394 @@
+body {
+    font-size: 12px;
+    font-family: "宋体";
+    color: #333;
+}
+
+#vancl {
+    #main {
+        height: auto;
+        .clas {
+            height: 40px;
+            line-height: 40px;
+            span {
+                color: #b4b4b4;
+            }
+            a {
+                color: #333;
+            }
+            p {
+                color: #b4b4b4;
+                line-height: 40px;
+                height: 50px;
+                em {
+                    color: #a00000;
+                    padding: 0px 2px;
+                }
+            }
+        }
+        .typearea {
+            width: 100%;
+            border: 1px solid #C7CACD;
+            border-bottom: none;
+            clear: both;
+            padding: 0px 1px 0px 0px;
+            .title {
+                border-bottom: 1px dashed #C7CACD;
+                height: 35px;
+                .left {
+                    width: 66px;
+                    text-align: center;
+                    line-height: 35px;
+                    border-right: 1px solid #C7CACD;
+                }
+                .right {
+                    display: inline-block;
+                    box-sizing: border-box;
+                    height: 100%;
+                    a {
+                        display: inline-block;
+                        margin-left: 25px;
+                        min-width: 11px;
+                        height: 100%;
+                        line-height: 35px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .floatdiv {
+            margin-top: 15px;
+            border-bottom: 2px solid #b81c22;
+            .allgood {
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                margin-top: 0px;
+                background: #b81c22;
+                cursor: pointer;
+                width: 88px;
+                text-align: center;
+            }
+            .paging {
+                display: flex;
+                align-items: center;
+                height: 30px;
+                width: auto;
+                line-height: 30px;
+                span {
+                    display: inline-block;
+                }
+                .num {
+                    margin-left: 12px;
+                }
+                .prve {
+                    width: 19px;
+                    height: 17px;
+                    cursor: pointer;
+                    line-height: 17px;
+                    text-align: center;
+                    font-size: 17px;
+                    font-weight: bolder;
+                    box-sizing: border-box;
+                    border-radius: 3px;
+                    margin-left: 10px;
+                    background: url(../css/img/sprites_20121129.png);
+                    background-position: -1px -73px;
+                    border: 1px solid #ccc;
+                }
+                .next {
+                    margin-left: 10px;
+                    border-radius: 3px;
+                    width: 48px;
+                    height: 17px;
+                    border: 1px solid #999;
+                    cursor: pointer;
+                    line-height: 19px;
+                    background: url(../css/img/sprites_20121129.png);
+                    background-position: 0px -89px;
+                    border: 1px solid #ccc;
+                }
+            }
+        }
+        .filterFormN5 {
+            border-bottom: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+            height: 35px;
+            >li {
+                width: 75px;
+                text-align: center;
+                line-height: 35px;
+                border-right: 1px solid #ccc;
+                cursor: pointer;
+                >span {
+                    display: inline-block;
+                    width: 11px;
+                    height: 11px;
+                    background: url(../css/img/sprites_20130606.png);
+                    background-position: 0px -3090px;
+                }
+            }
+            >li:nth-child(4) {
+                border-right: none;
+                span {
+                    background-position: -21px -3112px;
+                }
+            }
+            li:nth-child(5):hover {
+                overflow: visible;
+            }
+            li:nth-child(5) {
+                width: 90px;
+                height: 35px;
+                border-right: none;
+                overflow: hidden;
+                .Prices {
+                    background: #eee;
+                    border: 1px solid #ccc;
+                    position: relative;
+                    z-index: 100;
+                    li {
+                        cursor: pointer;
+                        span {
+                            width: 11px;
+                            height: 11px;
+                            display: inline-block;
+                            background: url(../css/img/sprites_20130606.png);
+                            background-position: 0px -3090px;
+                        }
+                    }
+                    .jg {
+                        span:nth-child(1) {
+                            background-position: -21px -3112px;
+                        }
+                        span:nth-child(2) {
+                            position: absolute;
+                            top: 10px;
+                            left: 70px;
+                            background: url(../css/img/sprites_20130606.png);
+                            background-position: 0px -3131px;
+                        }
+                    }
+                    li:hover {
+                        background: #fff;
+                    }
+                }
+            }
+            li:nth-child(6) {
+                border-right: none;
+                width: 135px;
+                height: auto;
+                position: relative;
+                .inpu {
+                    width: 100%;
+                    display: inline-block;
+                    border-right: 1px solid #ccc;
+                    box-sizing: border-box;
+                    border-left: 1px solid #ccc;
+                    #min,
+                    #max {
+                        width: 40px;
+                        height: 20px;
+                        box-sizing: border-box;
+                    }
+                }
+                .btn {
+                    position: absolute;
+                    width: 100%;
+                    height: 23px;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-top: none;
+                    box-sizing: border-box;
+                    background: #fff;
+                    top: 35px;
+                    left: 0;
+                    z-index: 10;
+                    display: none;
+                    .confirm {
+                        position: absolute;
+                        display: inline-block;
+                        width: 45px;
+                        height: 20px;
+                        background: url(../css/img/sprites_20130606.png);
+                        background-position: -0px -3058px;
+                        top: 0;
+                        left: 74px;
+                        cursor: pointer;
+                    }
+                    .clear {
+                        position: absolute;
+                        display: inline-block;
+                        width: 48px;
+                        height: 19px;
+                        line-height: 19px;
+                        left: 11px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            li:nth-child(7) {
+                width: 90px;
+                background: #eee;
+                color: #b81c22;
+            }
+        }
+        .pruarea {
+            margin-top: 15px;
+            li:nth-child(5n) {
+                margin-right: 0;
+            }
+            li {
+                width: 231px;
+                height: 303px;
+                text-align: center;
+                margin: 0px 11px 20px 0px;
+                >a {
+                    position: relative;
+                    width: 100%;
+                    height: 230px;
+                    display: inline-block;
+                    img {
+                        display: inline-block;
+                        width: 230px;
+                        height: 230px;
+                        border: 1px solid #dbd7d6;
+                        box-sizing: border-box;
+                    }
+                    .teshui {
+                        position: absolute;
+                        display: inline-block;
+                        width: 45px;
+                        height: 45px;
+                        background: url(../css/img/sprites_20130606.png);
+                        background-position: 0px -841px;
+                        bottom: 0;
+                        right: 0;
+                        text-align: center;
+                        line-height: 50px;
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        font-family: "宋体";
+                        font-weight: bolder;
+                    }
+                    .newview {
+                        position: absolute;
+                        display: inline-block;
+                        width: 40px;
+                        height: 23px;
+                        background: url(../css/img/sprites_20130606.png);
+                        background-position: 0 -631px;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+                .title {
+                    margin-top: 10px;
+                    padding: 0px 3px 5px;
+                    line-height: 20px;
+                    text-align: center;
+                    font-size: 13px;
+                    font-family: "Microsoft YaHei";
+                    height: 38px;
+                    overflow: hidden;
+                    a {
+                        margin-top: 10px;
+                        padding: 0px 3px 5px;
+                        line-height: 38px;
+                        text-align: center;
+                        font-size: 13px;
+                        font-family: "Microsoft YaHei";
+                        color: #727171;
+                    }
+                }
+                .price {
+                    color: #b81c22;
+                    font-weight: bold;
+                    font-size: 13px;
+                    font-family: "Microsoft YaHei";
+                    .tehui {
+                        font-weight: bold;
+                        text-decoration: line-through;
+                    }
+                    .newvw {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .number {
+            width: auto;
+            height: 26px;
+            line-height: 26px;
+            margin-bottom: 47px;
+            span {
+                display: inline-block;
+                cursor: pointer;
+            }
+            .number_prve {
+                display: inline-block;
+                width: 60px;
+                height: 100%;
+                padding-left: 12px;
+                line-height: 24px;
+                text-align: left;
+                border: 1px solid #efefef;
+                line-height: 24px;
+                text-align: center;
+                background: url(../css/img/sprites_20130606.png);
+                background-position: 3px -1996px;
+                box-sizing: border-box;
+            }
+            .yeshu {
+                width: auto;
+                height: auto;
+                display: inline-block;
+                .currentpage {
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    background: #b81c22;
+                    width: 26px;
+                    line-height: 24px;
+                    height: 24px;
+                    border: 1px solid #ededed;
+                    text-align: center;
+                    margin-left: 7px;
+                }
+                .track {
+                    font-weight: bold;
+                    width: 26px;
+                    line-height: 24px;
+                    height: 24px;
+                    border: 1px solid #ededed;
+                    text-align: center;
+                    margin-left: 7px;
+                }
+            }
+            .number_next {
+                margin-left: 5px;
+                width: 43px;
+                height: 24px;
+                padding-right: 12px;
+                line-height: 24px;
+                text-align: right;
+                border: 1px solid #efefef;
+                background: url(../css/img/sprites_20130606.png);
+                background-position: 46px -1954px;
+            }
+            .skip {
+                input {
+                    width: 28px;
+                    height: 100%;
+                    box-sizing: border-box;
+                    text-align: center;
+                    line-height: 26px;
+                }
+            }
+            #number_btn {
+                width: 50px;
+                height: 100%;
+                background: url(../css/img/sprites_20130606.png) 0px -2044px;
+            }
+        }
+    }
+}

@@ -1,0 +1,189 @@
+#reg {
+    .log {
+        margin-top: 1px;
+        height: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px #919191;
+        box-sizing: border-box;
+        h1 {
+            height: 60px;
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+    form {
+        input::-webkit-input-placeholder {
+            color: #acacac;
+        }
+        height: 592px;
+        .content_letf {
+            padding-top: 90px;
+            width: 465px;
+            height: 500px;
+            margin-left: 130px;
+        }
+        .content_rigth {
+            padding-top: 43px;
+            width: 415px;
+            height: 423px;
+            margin-left: 90px;
+            h2 {
+                width: 415px;
+                height: 35px;
+                border-bottom: 2px solid #b81e20;
+                color: #a2a2a2;
+                font-size: 20px;
+                line-height: 35px;
+                span {
+                    font-size: 14px;
+                    a {
+                        color: #b52024;
+                        margin: 0 0 0 3px;
+                    }
+                }
+            }
+            .reg_sjh {
+                position: absolute;
+                height: 0px;
+                color: #999;
+                top: 46px;
+                display: inline-block;
+                font: 100 12px " SimSun";
+                left: 2px;
+                box-sizing: border-box;
+                text-align: center;
+                line-height: 20px;
+                overflow: hidden;
+            }
+            .ys {
+                height: 45px;
+                line-height: 45px;
+                color: #656565;
+                width: 410px;
+                text-align: left;
+                font-size: 12px;
+                text-indent: 10px;
+                border: solid 1px #cbcbcb;
+                margin-left: 2px;
+            }
+            .reg_yzm {
+                position: absolute;
+                height: 0px;
+                color: #a10000;
+                top: 46px;
+                display: inline-block;
+                font: 100 12px " SimSun";
+                left: 2px;
+                //  border: 1px #ffd5d5 solid;
+                box-sizing: border-box;
+                text-align: center;
+                z-index: 20;
+                background: #f9f9f9;
+                line-height: 24px;
+                box-sizing: border-box;
+                overflow: hidden;
+            }
+            .yzm,
+            .sjh {
+                margin-top: 35px;
+                padding-left: 2px;
+                position: relative;
+                .verification {
+                    width: 260px;
+                    border: solid 1px #cbcbcb;
+                    height: 43px;
+                    line-height: 43px;
+                    text-indent: 10px;
+                }
+                .yzmimg {
+                    display: inline-block;
+                    width: 140px;
+                    height: 45px;
+                    cursor: pointer;
+                    margin-left: 10px;
+                    border: solid 1px #cbcbcb;
+                    box-sizing: border-box;
+                    font-size: 20px;
+                    line-height: 45px;
+                    text-align: center;
+                }
+            }
+            .sjh {
+                margin-top: 20px;
+                .yzmimg {
+                    color: #b52024;
+                    border: solid 1px #cbcbcb;
+                    text-align: center;
+                    background: #f5f5f5;
+                    font-size: 12px;
+                    box-sizing: border-box;
+                    text-indent: 10px;
+                }
+            }
+            .sjyzm,
+            .paw,
+            .paws {
+                position: relative;
+                margin-top: 20px;
+            }
+            .clause {
+                margin-top: 30px;
+                color: #9d9d9d;
+                font-size: 14px;
+                line-height: 12px;
+                a {
+                    color: #b52024;
+                    font-weight: bolder;
+                    line-height: 12px;
+                    font-size: 12px;
+                }
+            }
+            #btn {
+                margin-top: 20px;
+                width: 413px;
+                height: 45px;
+                line-height: 45px;
+                color: #fff;
+                font-weight: bolder;
+                background: #9A9A9A;
+                cursor: pointer;
+            }
+        }
+    }
+    .footer {
+        font: 100 12px "宋体";
+        color: #999999;
+        text-align: center;
+        ul {
+            width: 526px;
+            margin: 20px auto;
+            padding-bottom: 5px;
+            li {
+                width: 113px;
+                height: 42px;
+                background: url(../css/img/register11.jpg);
+                background-position: 0px -400px;
+            }
+            li:nth-child(2) {
+                margin-left: 20px;
+                width: 156px;
+                height: 45px;
+                background-position: 0px -448px;
+            }
+            li:nth-child(3) {
+                margin-left: 20px;
+                width: 96px;
+                height: 42px;
+                background-position: 0px -493px;
+            }
+            li:nth-child(4) {
+                margin-left: 20px;
+                width: 101px;
+                height: 42px;
+                background-position: -96px -493px;
+            }
+        }
+    }
+}

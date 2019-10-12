@@ -1,0 +1,18 @@
+.content {
+    width: 1200px;
+    margin: auto;
+}
+
+.content2 {
+    width: 980px;
+    margin: auto;
+}
+
+.subside::after {
+    content: "";
+    clear: both;
+    height: 0px;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}

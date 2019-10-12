@@ -1,0 +1,855 @@
+body {
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+#vancl {
+    //头部
+    header {
+        height: 30px;
+        background: #f7f7f7;
+        border-bottom: 1px solid #ccc;
+        font-family: "宋体";
+        box-sizing: border-box;
+        position: relative;
+        .vancl_header {
+            width: auto;
+            height: 100%;
+            font-size: 12px;
+            color: #808080;
+            position: absolute;
+            right: 160px;
+            .greet {
+                height: 100%;
+                line-height: 30px;
+            }
+            ul {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                li {
+                    height: 12px;
+                    padding-left: 15px;
+                    cursor: pointer;
+                    line-height: 12px;
+                    margin-right: 19px;
+                }
+                .login {
+                    padding-right: 14px;
+                    margin-right: 0px;
+                    border-right: 1px solid #808080;
+                }
+            }
+            .order {
+                height: 100%;
+                line-height: 30px;
+                cursor: pointer;
+                margin-right: 14px;
+            }
+            .notice {
+                padding-left: 25px;
+                height: 100%;
+                line-height: 30px;
+                cursor: pointer;
+                background: url(../css/img/index67.jpg) no-repeat;
+                background-position: 0 50%;
+            }
+            .accounts {
+                margin-left: 15px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                span {
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    cursor: pointer;
+                }
+                .weixin {
+                    position: relative;
+                    margin-right: 2px;
+                    background: url(../css/img/index69.jpg) no-repeat;
+                    .yard {
+                        position: absolute;
+                        display: inline-block;
+                        right: 0px;
+                        top: 29px;
+                        width: 147px;
+                        height: 0px;
+                        background: url(../css/img/index70.jpg);
+                        z-index: 2001;
+                    }
+                }
+                .weixin:hover .yard {
+                    height: 168px;
+                }
+                .weibo {
+                    background: url(../css/img/index71.jpg) no-repeat;
+                }
+            }
+        }
+    }
+    //导航栏&&轮播图
+    nav {
+        height: 150px;
+        .search {
+            margin-left: 767px;
+            margin-top: 28px;
+            #text {
+                width: 250px;
+                height: 30px;
+                border: 1px solid #ccc;
+                padding-left: 8px;
+                box-sizing: border-box;
+                font-family: "宋体";
+            }
+            input::-webkit-input-placeholder {
+                color: #000;
+            }
+            .vancl_search {
+                width: 50px;
+                height: 30px;
+                background: url(../css/img/register11.jpg) no-repeat;
+                background-position: -135px -18px;
+                transform: scale(1.2);
+                margin-top: 1px;
+                cursor: pointer;
+                margin-left: 6px;
+            }
+            .vancl_shopping {
+                width: 105px;
+                height: 30px;
+                margin-left: 20px;
+                line-height: 35px;
+                font-size: 14px;
+                color: #fff;
+                background-color: #b81c20;
+                border: 1px solid #fff;
+                //box-sizing: border-box;
+                cursor: pointer;
+                position: relative;
+                z-index: 2000;
+                span {
+                    display: inline-block;
+                    height: 100%;
+                    font-family: "宋体";
+                    line-height: 27px;
+                }
+                .shopping_map {
+                    margin-left: 6px;
+                    width: 20px;
+                    height: 100%;
+                    line-height: 27px;
+                    font-size: 20px;
+                }
+                .shopping_particulars {
+                    width: 410px;
+                    position: absolute;
+                    display: none;
+                    right: -1px;
+                    top: 30px;
+                    border: 1px solid #c1383e;
+                    background: #fff;
+                    z-index: 2000;
+                    .top {
+                        color: #727171;
+                        font-size: 14px;
+                        height: 50px;
+                        line-height: 50px;
+                        padding-left: 25px;
+                        box-sizing: border-box;
+                    }
+                    ul {
+                        width: 355px;
+                        margin-left: 25px;
+                        box-sizing: border-box;
+                        color: #000;
+                        border-top: 1px solid #ececec;
+                        border-bottom: 1px solid #ececec;
+                        padding-bottom: 20px;
+                        padding-top: 10px;
+                        li {
+                            padding-top: 20px;
+                            img {
+                                width: 40px;
+                                height: 45px;
+                                display: inline-block;
+                            }
+                            .shopping_good {
+                                margin-left: 10px;
+                                width: 250px;
+                                height: 40px;
+                                p {
+                                    height: 14px;
+                                    font-size: 14px;
+                                    line-height: 14px;
+                                }
+                                .shoppingTotle {
+                                    margin-bottom: 12px;
+                                    color: #727171;
+                                }
+                                .shoppingPrice {
+                                    color: #a10000;
+                                }
+                            }
+                            .shoppingDelete {
+                                width: 35px;
+                                color: #a10000;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .shoppingSettlement {
+                        margin-top: 8px;
+                        padding-left: 25px;
+                        box-sizing: border-box;
+                        margin-bottom: 25px;
+                        .subtotal {
+                            color: #333333;
+                            font-size: 14px;
+                            height: 14px;
+                            line-height: 14px;
+                            a {
+                                color: #a3a3a3;
+                            }
+                        }
+                        .shoppingSubtotal {
+                            margin-top: 3px;
+                            font-size: 12px;
+                            height: 12px;
+                            line-height: 12px;
+                            color: #b81c22;
+                        }
+                    }
+                    .shoppinOut {
+                        margin-top: 8px;
+                        margin-left: 10px;
+                        width: 135px;
+                        height: 35px;
+                        background: #b81c22;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 35px;
+                    }
+                }
+            }
+            .vancl_shopping:hover {
+                border: 1px solid #c1383e;
+                border-bottom: 1px solid #fff;
+                color: #b81c20;
+                background: #fff;
+            }
+            .vancl_shopping:hover .shopping_particulars {
+                display: block;
+            }
+        }
+        .menu {
+            height: 46px;
+            margin-top: 15px;
+            position: relative;
+            h1 {
+                text-indent: -99999px;
+                width: 185px;
+                height: 46px;
+                background: url(../css/img/log.jpg);
+                cursor: pointer;
+            }
+            .down_title {
+                color: #727171;
+                position: absolute;
+                top: 20px;
+                left: 200px;
+                >li {
+                    width: 99px;
+                    line-height: 22px;
+                    padding: 0px 0px 10px;
+                    text-align: center;
+                    font-size: 16px;
+                    font-family: "Microsoft YaHei";
+                    position: relative;
+                    em {
+                        display: inline-block;
+                        width: 25px;
+                        height: 13px;
+                        position: absolute;
+                        background: url(../css/img/index74.jpg);
+                        top: -7px;
+                        left: 67px;
+                    }
+                    i {
+                        display: inline-block;
+                        width: 25px;
+                        height: 13px;
+                        background: url(../css/img/index75.jpg);
+                        position: absolute;
+                        top: -7px;
+                        left: 62px;
+                    }
+                    a {
+                        cursor: pointer;
+                        color: #727171;
+                    }
+                    span {
+                        display: block;
+                        height: 16px;
+                        width: 1px;
+                        border-right: solid 1px #888;
+                        position: absolute;
+                        right: 1px;
+                        top: 5px;
+                        overflow: hidden;
+                    }
+                    ul {
+                        cursor: pointer;
+                        top: 30px;
+                        position: absolute;
+                        z-index: 50;
+                        width: 100%;
+                        background: #fff;
+                        display: none;
+                        height: auto;
+                        overflow: hidden;
+                        p {
+                            border-top: 5px solid #b81c22;
+                            padding-top: 22px;
+                            width: 100%;
+                        }
+                        li {
+                            text-align: center;
+                            line-height: 35px;
+                            background: none;
+                            padding: 0px;
+                            float: none;
+                            font-size: 16px;
+                            height: 34.4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    dl {
+        margin-left: 780px;
+        margin-top: 8px;
+        color: #727171;
+        font-size: 12px;
+        font-family: "宋体";
+        dt,
+        dd {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+    .vancl_banner {
+        height: 535px;
+        background: peru;
+        position: relative;
+        cursor: pointer;
+        .handover {
+            position: absolute;
+            width: 100%;
+            height: 60px;
+            z-index: 10;
+            // right: 10px;
+            top: 230px;
+            .handoverLeft,
+            .handoverRright {
+                width: 28px;
+                height: 60px;
+                background: url(../css/img/index83.jpg);
+                margin-left: 10px;
+                background-position: 0px 0px;
+                cursor: pointer;
+            }
+            .handoverRright {
+                background-position: -52px 0px;
+                margin-right: 10px;
+            }
+            .handoverLeft:hover {
+                background-position: 0px -61px;
+            }
+            .handoverRright:hover {
+                background-position: -52px -61px;
+            }
+        }
+        .img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            li {
+                position: absolute;
+            }
+            li:nth-child(1) {
+                z-index: 2;
+            }
+        }
+        .focus {
+            position: absolute;
+            width: auto;
+            z-index: 10;
+            right: 46%;
+            top: 500px;
+            .ulFocus {
+                width: 12px;
+                height: 12px;
+                display: inline;
+                margin-right: 8px;
+                cursor: pointer;
+                background: #ddd;
+                border-radius: 12px;
+            }
+            .avert {
+                background: #A10000;
+            }
+        }
+    }
+    //内容
+    main {
+        //秒杀
+        .vancl_seckill {
+            height: 555px;
+            margin-top: 40px;
+            .seckillTitle {
+                height: 69px;
+                background: url(../css/img/11.gif);
+                cursor: pointer;
+            }
+            .seckillContent {
+                margin-top: 30px;
+                .Countdown {
+                    height: 64px;
+                    background: url(../css/img/index84.jpg);
+                    cursor: pointer;
+                    .seckill {
+                        height: 64px;
+                        line-height: 64px;
+                        text-align: center;
+                        font-family: "Microsoft YaHei";
+                        color: #a10000;
+                        font-size: 18px;
+                        float: right;
+                        padding-right: 30px;
+                        span {
+                            line-height: 64px;
+                            text-align: center;
+                            font-family: "Microsoft YaHei";
+                            color: #fff;
+                            font-size: 18px;
+                            margin-right: 37px;
+                        }
+                    }
+                }
+                ul {
+                    li {
+                        width: 240px;
+                        height: 340px;
+                        img {
+                            width: 100%;
+                            height: 255px;
+                            display: inline-block;
+                        }
+                        .liTitle {
+                            margin-top: 20px;
+                            font-size: 16px;
+                            color: #474747;
+                            font-weight: normal;
+                        }
+                        .liPrice1 {
+                            display: block;
+                            color: #d3d3d3;
+                            font-size: 14px;
+                            text-decoration: line-through;
+                            font-weight: normal;
+                        }
+                        .liPrice2 {
+                            color: #bb2b34;
+                            font-size: 16px;
+                            position: relative;
+                            span {
+                                float: right;
+                                position: absolute;
+                                top: -9px;
+                                right: 23px;
+                                a {
+                                    padding-left: 5px;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    color: #bb2b34;
+                                    font-weight: bolder;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //新品
+        .vancl_newGood {
+            height: 1420px;
+            .newTitle {
+                height: 84px;
+                background: url(../css/img/index06.jpg);
+            }
+            ul {
+                li {
+                    width: 268px;
+                    height: 428px;
+                    margin-left: 25px;
+                    margin-bottom: 20px;
+                    img {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        //半价
+        .vancl_halfFare {
+            height: 2840px;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                li {
+                    width: 287px;
+                    height: 558px;
+                    img {
+                        cursor: pointer;
+                    }
+                }
+            }
+            .halfFareTitle {
+                height: 58px;
+                background: url(../css/img/index23.jpg);
+            }
+        }
+        //推荐
+        .vancl_recommend {
+            height: 1170px;
+            h2 {
+                color: #9a9a9a;
+                font-size: 18px;
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+                margin: 30px 0;
+                font-family: "Microsoft YaHei";
+            }
+            h3 {
+                height: 28px;
+                line-height: 28px;
+                font-size: 14px;
+                font-family: "Microsoft YaHei";
+                border: 1px solid #e8e7ec;
+                padding: 20px 12px;
+            }
+            ul {
+                li {
+                    img {
+                        width: 590px;
+                        height: 440px;
+                        cursor: pointer;
+                    }
+                    span {
+                        float: right;
+                        color: #a10000;
+                        font-family: Arial;
+                    }
+                    em {
+                        font-size: 16px;
+                        padding-left: 10px;
+                    }
+                }
+                li:nth-child(1) {
+                    width: 590px;
+                    height: 510px;
+                }
+                li:nth-child(2) {
+                    width: 290px;
+                    height: 530px;
+                    margin-left: 17px;
+                    img {
+                        width: 290px;
+                        height: 180px;
+                        display: inline-block;
+                    }
+                    .recommendBottom {
+                        margin-top: 10px;
+                    }
+                }
+                li:nth-child(3) {
+                    width: 286px;
+                    height: 510px;
+                    margin-left: 17px;
+                    img {
+                        width: 286px;
+                        height: 440px;
+                    }
+                }
+            }
+        }
+        //下装推荐
+        .vancl_below {
+            height: 640px;
+            li {
+                width: 285px;
+                margin-left: 15px;
+            }
+            h2 {
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                margin-top: 30;
+                margin-bottom: 30px;
+                font-family: "Microsoft YaHei";
+                color: #9a9a9a;
+                font-size: 18px;
+            }
+            img {
+                width: 285px;
+                height: 438px;
+                cursor: pointer;
+            }
+            h3 {
+                height: 28px;
+                padding: 20px 10px;
+                line-height: 28px;
+                border: 1px solid #e8e7ec;
+                border-top: 0px;
+                font-family: "Microsoft YaHei";
+                font-size: 14px;
+                font-weight: normal;
+            }
+            span {
+                float: right;
+                color: #a10000;
+                font-family: Arial;
+                line-height: 24px;
+                font-size: 14px;
+            }
+            em {
+                font-size: 16px;
+                padding-left: 10px;
+            }
+        }
+        //精品
+        .vancl_boutique {
+            height: 715px;
+            h2 {
+                text-align: center;
+                line-height: 50px;
+                margin: 30px 0px;
+                font-family: "Microsoft YaHei";
+                color: #9a9a9a;
+                font-size: 18px;
+            }
+            ul {
+                li:nth-child(3n+1) {
+                    margin-right: 22px;
+                }
+                li:nth-child(-n+3) {
+                    margin-bottom: 28px;
+                }
+                li {
+                    width: 385px;
+                    height: 275px;
+                    img {
+                        width: 385px;
+                        height: 275px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    //客服
+    .vancl_service {
+        height: 284px;
+        margin: 0px auto;
+        padding: 0px 40px 0px;
+        border: 1px solid #e0e0e1;
+        font-family: "Microsoft YaHei";
+        margin-bottom: 25px;
+        box-sizing: border-box;
+        .service_top {
+            width: 1118px;
+            height: 138px;
+            margin: 33px 0px 23px;
+            ul {
+                li {
+                    width: 371px;
+                    height: 138px;
+                    border-right: 1px solid #e0e0e1;
+                    margin-right: 0px;
+                    cursor: pointer;
+                }
+                li:nth-child(3) {
+                    border-right: none;
+                }
+                .topService {
+                    height: 42px;
+                    margin: 15px auto 30px;
+                    background: url(../css/img/index64.jpg) no-repeat;
+                    background-position: center center;
+                }
+                .topService2 {
+                    height: 42px;
+                    margin: 15px auto 30px;
+                    background: url(../css/img/index63.jpg) no-repeat;
+                    background-position: center center;
+                }
+                .serviceRelation {
+                    margin: 0px auto;
+                    width: 156px;
+                    height: 32px;
+                    text-align: center;
+                    line-height: 32px;
+                    font-size: 14px;
+                    background: #b81c22;
+                    color: #ffffff;
+                }
+                .sevenDays {
+                    text-align: center;
+                    font-size: 14px;
+                    color: #727171;
+                    line-height: 26px;
+                }
+                img {
+                    width: 104px;
+                    height: 104px;
+                    display: block;
+                    margin-bottom: 10px;
+                    margin: 0 auto;
+                }
+                .Ewm {
+                    text-align: center;
+                    font-size: 14px;
+                    color: #727171;
+                    line-height: 26px;
+                }
+            }
+        }
+        .service_bottom {
+            width: 1118px;
+            height: 26px;
+            padding: 17px 0px 14px;
+            background: #f8f8f8;
+            ul {
+                li {
+                    padding: 0px 65px;
+                    line-height: 26px;
+                    border-right: 1px solid #dadadb;
+                    width: auto;
+                    text-align: center;
+                    margin-right: 0px;
+                    box-sizing: border-box;
+                    a {
+                        font-size: 12px;
+                        color: #333;
+                        font-family: "Microsoft YaHei";
+                    }
+                }
+                li:nth-child(6) {
+                    border-right: none;
+                }
+            }
+        }
+    }
+    //底部
+    footer {
+        height: 135px;
+        border-top: 1px solid #3e3a39;
+        padding-bottom: 30px;
+        .footerTop {
+            height: 60px;
+            padding-top: 15px;
+            p {
+                font-size: 12px;
+                text-align: center;
+                line-height: 25px;
+                color: #3e3a39;
+                font-family: "Microsoft YaHei";
+            }
+        }
+        .footerBottom {
+            margin-top: 20px;
+            height: 45px;
+            ul {
+                margin: auto;
+                margin-top: 10px;
+                li {
+                    margin-left: 20px;
+                    background: url(../css/img/register11.jpg);
+                }
+                li:nth-child(1) {
+                    margin-left: 20%;
+                    width: 113px;
+                    height: 42px;
+                    background-position: 0px -400px;
+                }
+                li:nth-child(2) {
+                    width: 156px;
+                    height: 45px;
+                    background-position: 0px -448px;
+                }
+                li:nth-child(3) {
+                    width: 96px;
+                    height: 42px;
+                    background-position: 0px -493px;
+                }
+                li:nth-child(4) {
+                    width: 101px;
+                    height: 42px;
+                    background-position: -94px -493px;
+                }
+                li:nth-child(5) {
+                    width: 42px;
+                    height: 42px;
+                    background: url(../css/img/index85.jpg);
+                    background-position: -202px -674px;
+                }
+                li:nth-child(6) {
+                    width: 120px;
+                    height: 39px;
+                    background: url(../css/img/index66.jpg);
+                    //background-sizing: 100% 100%;
+                    background-size: 100% 100%;
+                    // background-position: -202px -674px;
+                }
+            }
+        }
+    }
+    .FixedMenu {
+        position: fixed;
+        width: 73px;
+        height: 281px;
+        border-bottom: none;
+        margin-bottom: 30px;
+        right: 10px;
+        bottom: 20px;
+        z-index: 10;
+        border: 1px solid #b81b22;
+        ul {
+            li {
+                height: 76px;
+                cursor: pointer;
+                background: url(../css/img/index86.jpg);
+                border-bottom: 1px solid #b81b22;
+            }
+            li:nth-child(1) {
+                background-position: -1px -1px;
+            }
+            li:nth-child(2) {
+                background-position: -1px -78px;
+            }
+            li:nth-child(3) {
+                height: 71px;
+                background-position: -1px -155px;
+            }
+            li:nth-child(4) {
+                height: 55px;
+                background-position: -1px -226px;
+            }
+        }
+    }
+}

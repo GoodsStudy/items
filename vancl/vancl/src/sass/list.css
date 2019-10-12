@@ -1,0 +1,447 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  font-family: "宋体";
+  color: #333;
+}
+
+#vancl #main {
+  height: auto;
+}
+
+#vancl #main .clas {
+  height: 40px;
+  line-height: 40px;
+}
+
+#vancl #main .clas span {
+  color: #b4b4b4;
+}
+
+#vancl #main .clas a {
+  color: #333;
+}
+
+#vancl #main .clas p {
+  color: #b4b4b4;
+  line-height: 40px;
+  height: 50px;
+}
+
+#vancl #main .clas p em {
+  color: #a00000;
+  padding: 0px 2px;
+}
+
+#vancl #main .typearea {
+  width: 100%;
+  border: 1px solid #C7CACD;
+  border-bottom: none;
+  clear: both;
+  padding: 0px 1px 0px 0px;
+}
+
+#vancl #main .typearea .title {
+  border-bottom: 1px dashed #C7CACD;
+  height: 35px;
+}
+
+#vancl #main .typearea .title .left {
+  width: 66px;
+  text-align: center;
+  line-height: 35px;
+  border-right: 1px solid #C7CACD;
+}
+
+#vancl #main .typearea .title .right {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#vancl #main .typearea .title .right a {
+  display: inline-block;
+  margin-left: 25px;
+  min-width: 11px;
+  height: 100%;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+#vancl #main .floatdiv {
+  margin-top: 15px;
+  border-bottom: 2px solid #b81c22;
+}
+
+#vancl #main .floatdiv .allgood {
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 0px;
+  background: #b81c22;
+  cursor: pointer;
+  width: 88px;
+  text-align: center;
+}
+
+#vancl #main .floatdiv .paging {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: auto;
+  line-height: 30px;
+}
+
+#vancl #main .floatdiv .paging span {
+  display: inline-block;
+}
+
+#vancl #main .floatdiv .paging .num {
+  margin-left: 12px;
+}
+
+#vancl #main .floatdiv .paging .prve {
+  width: 19px;
+  height: 17px;
+  cursor: pointer;
+  line-height: 17px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-left: 10px;
+  background: url(../css/img/sprites_20121129.png);
+  background-position: -1px -73px;
+  border: 1px solid #ccc;
+}
+
+#vancl #main .floatdiv .paging .next {
+  margin-left: 10px;
+  border-radius: 3px;
+  width: 48px;
+  height: 17px;
+  border: 1px solid #999;
+  cursor: pointer;
+  line-height: 19px;
+  background: url(../css/img/sprites_20121129.png);
+  background-position: 0px -89px;
+  border: 1px solid #ccc;
+}
+
+#vancl #main .filterFormN5 {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  height: 35px;
+}
+
+#vancl #main .filterFormN5 > li {
+  width: 75px;
+  text-align: center;
+  line-height: 35px;
+  border-right: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#vancl #main .filterFormN5 > li > span {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 0px -3090px;
+}
+
+#vancl #main .filterFormN5 > li:nth-child(4) {
+  border-right: none;
+}
+
+#vancl #main .filterFormN5 > li:nth-child(4) span {
+  background-position: -21px -3112px;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5):hover {
+  overflow: visible;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) {
+  width: 90px;
+  height: 35px;
+  border-right: none;
+  overflow: hidden;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) .Prices {
+  background: #eee;
+  border: 1px solid #ccc;
+  position: relative;
+  z-index: 100;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) .Prices li {
+  cursor: pointer;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) .Prices li span {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 0px -3090px;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) .Prices .jg span:nth-child(1) {
+  background-position: -21px -3112px;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) .Prices .jg span:nth-child(2) {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 0px -3131px;
+}
+
+#vancl #main .filterFormN5 li:nth-child(5) .Prices li:hover {
+  background: #fff;
+}
+
+#vancl #main .filterFormN5 li:nth-child(6) {
+  border-right: none;
+  width: 135px;
+  height: auto;
+  position: relative;
+}
+
+#vancl #main .filterFormN5 li:nth-child(6) .inpu {
+  width: 100%;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  border-left: 1px solid #ccc;
+}
+
+#vancl #main .filterFormN5 li:nth-child(6) .inpu #min,
+#vancl #main .filterFormN5 li:nth-child(6) .inpu #max {
+  width: 40px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
+#vancl #main .filterFormN5 li:nth-child(6) .btn {
+  position: absolute;
+  width: 100%;
+  height: 23px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-top: none;
+  box-sizing: border-box;
+  background: #fff;
+  top: 35px;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+
+#vancl #main .filterFormN5 li:nth-child(6) .btn .confirm {
+  position: absolute;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: -0px -3058px;
+  top: 0;
+  left: 74px;
+  cursor: pointer;
+}
+
+#vancl #main .filterFormN5 li:nth-child(6) .btn .clear {
+  position: absolute;
+  display: inline-block;
+  width: 48px;
+  height: 19px;
+  line-height: 19px;
+  left: 11px;
+  cursor: pointer;
+}
+
+#vancl #main .filterFormN5 li:nth-child(7) {
+  width: 90px;
+  background: #eee;
+  color: #b81c22;
+}
+
+#vancl #main .pruarea {
+  margin-top: 15px;
+}
+
+#vancl #main .pruarea li:nth-child(5n) {
+  margin-right: 0;
+}
+
+#vancl #main .pruarea li {
+  width: 231px;
+  height: 303px;
+  text-align: center;
+  margin: 0px 11px 20px 0px;
+}
+
+#vancl #main .pruarea li > a {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  display: inline-block;
+}
+
+#vancl #main .pruarea li > a img {
+  display: inline-block;
+  width: 230px;
+  height: 230px;
+  border: 1px solid #dbd7d6;
+  box-sizing: border-box;
+}
+
+#vancl #main .pruarea li > a .teshui {
+  position: absolute;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 0px -841px;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  line-height: 50px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: "宋体";
+  font-weight: bolder;
+}
+
+#vancl #main .pruarea li > a .newview {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 23px;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 0 -631px;
+  left: 0;
+  top: 0;
+}
+
+#vancl #main .pruarea li .title {
+  margin-top: 10px;
+  padding: 0px 3px 5px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Microsoft YaHei";
+  height: 38px;
+  overflow: hidden;
+}
+
+#vancl #main .pruarea li .title a {
+  margin-top: 10px;
+  padding: 0px 3px 5px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Microsoft YaHei";
+  color: #727171;
+}
+
+#vancl #main .pruarea li .price {
+  color: #b81c22;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Microsoft YaHei";
+}
+
+#vancl #main .pruarea li .price .tehui {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+#vancl #main .pruarea li .price .newvw {
+  font-weight: bold;
+}
+
+#vancl #main .number {
+  width: auto;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 47px;
+}
+
+#vancl #main .number span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#vancl #main .number .number_prve {
+  display: inline-block;
+  width: 60px;
+  height: 100%;
+  padding-left: 12px;
+  line-height: 24px;
+  text-align: left;
+  border: 1px solid #efefef;
+  line-height: 24px;
+  text-align: center;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 3px -1996px;
+  box-sizing: border-box;
+}
+
+#vancl #main .number .yeshu {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+#vancl #main .number .yeshu .currentpage {
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #b81c22;
+  width: 26px;
+  line-height: 24px;
+  height: 24px;
+  border: 1px solid #ededed;
+  text-align: center;
+  margin-left: 7px;
+}
+
+#vancl #main .number .yeshu .track {
+  font-weight: bold;
+  width: 26px;
+  line-height: 24px;
+  height: 24px;
+  border: 1px solid #ededed;
+  text-align: center;
+  margin-left: 7px;
+}
+
+#vancl #main .number .number_next {
+  margin-left: 5px;
+  width: 43px;
+  height: 24px;
+  padding-right: 12px;
+  line-height: 24px;
+  text-align: right;
+  border: 1px solid #efefef;
+  background: url(../css/img/sprites_20130606.png);
+  background-position: 46px -1954px;
+}
+
+#vancl #main .number .skip input {
+  width: 28px;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 26px;
+}
+
+#vancl #main .number #number_btn {
+  width: 50px;
+  height: 100%;
+  background: url(../css/img/sprites_20130606.png) 0px -2044px;
+}
